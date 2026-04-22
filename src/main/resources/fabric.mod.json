@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "twice-optipvp",
+  "version": "${version}",
+  "name": "Twice OptiPvP",
+  "description": "Fabric 1.21.4 client optimization mod focused on PvP responsiveness and frame stability.",
+  "authors": [
+    "Twice"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.twice.optipvp.TwiceOptiPvpMod"
+    ],
+    "client": [
+      "com.twice.optipvp.TwiceOptiPvpClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
