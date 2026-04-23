@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "twice_pvp_optimizer",
+  "version": "${version}",
+  "name": "Twice PvP Optimizer",
+  "description": "Fabric 1.21.4 optimization bootstrap focused on PvP responsiveness and FPS stability.",
+  "authors": ["Twice Team"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.twice.optimizer.TwicePvpOptimizerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
